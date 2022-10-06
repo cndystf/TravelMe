@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TravelMe</title>
+    <link rel = "icon" href="assets/images/logo.png" type = "image/x-icon">
+          
+</head>
+<body>       
+    <header>
+        <nav>
+            <ul>
+            <img src="assets/images/logo.png">
+            <li><a href="#">Home</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="slider-container">
+            <div class="homeSlides fade">
+              <img src="assets/images/slide1.jpg" style="width:100%">
+              <div class="slider-card">
+                Experience Uncommon Thing
+                <br>Feed Your Wanderlust
+                <br>Discover a New Place
+
+              </div>
+            </div>
+            
+            <div class="homeSlides fade">
+              <img src="assets/images/slide2.jpg" style="width:100%">
+              <div class="slider-card">
+                Meet Other People, Other Culture
+                <br>Make a Lot of Memories
+                <br>Cherish It In Every Moment
+              </div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+        </div>
+        <br>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+            </div>
+        
+        <div id="content">
+            <article id="highlights" class="card">
+              <h1>Highlights</h1>
+              <section>
+                <h3>Alaska</h3>
+                    <img src="assets/images/alaska.jpeg" class="highlights-image" alt="alaska">
+                    <p>The vast state, famous for its towering, snow-capped peaks, pristine wilderness, massive national parks, and colorful locals, made for a dynamic destination with no passport required. But as borders reopen, interest in the 49th state is showing no signs of slowing down. Alaska's tourism board said early forecasts are projecting that more than 1.57 million cruise ship passengers could visit southeast Alaska in summer 2022. </p>
+              </section>
+              <section>
+                <h3>Maldives</h3>
+                  <img src="assets/images/maldives.jpeg" class="highlights-image" alt="maldives">
+                  <p>The Maldives' 1,000+ islands sit in the Indian Ocean like a string of turquoise pearls. The tropical nirvana has 166 accommodation options, including the new Joali Being nature retreat, which leads guests on a transformative wellness journey. Alila Kothaifaru Maldives debuts in February with 80 beach and overwater villas on the Raa Atoll. Coming to the same atoll in May, also with 80 luxury villas, is Emerald Faarufushi Resort & Spa on a massive lagoon primed for snorkeling. </p>
+              </section>
+              <section>
+                <h3>Edinburgh</h3>
+                  <img src="assets/images/edinburgh.jpeg" class="highlights-image" alt="edinburgh">
+                  <p>Scotland’s capital city, Edinburgh is renowned for its heritage, culture, and festivals. Take a long walk around the center to explore the World Heritage Sites of the Old Town and New Town, as well as all the area’s museums and galleries. Pause to fortify yourself with tea and scones at the city’s charming tea rooms or duck into a traditional pub. Then head out to take in one of Edinburgh’s many events—including the famous summer festivals of culture, or the Winter Festivals of music, light, and ceilidhs.</p>
+              </section>
+            </article>
+        </div>
+
+        <aside>
+          <article class="profile" class="card">
+            <header>
+                <h2>Profile</h2>
+                <figure>
+                    <img src="assets/images/klee.png" alt="">
+                </figure>
+            </header>
+            <section>
+                <table>
+                   <tr>
+                      <th>Nama</th>
+                      <td>Cindy</td>
+                   </tr>
+                  <tr>
+                      <th>Email</th>
+                      <td>cndysteff@gmail.com</td>
+                   </tr>
+               </table>
+            </section>
+          </article>
+        </aside>
+    </main>
+    <footer>
+      <p>Submission Belajar Dasar Pemrograman Web &#169; Dicoding Academy</p>
+    </footer>
+    
+    <script src="assets/js/slider.js"></script>
+</body>
+</html>
+
+<!-- list of sources :
+images :
+- pexels
+- freelogodesign
+informations : 
+- travelandleisure.com
+- w3school
+- tripadvisor -->
