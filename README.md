@@ -1,3 +1,3 @@
 # TravelMe
 
-Basic Web Submission
+Basic web submission
